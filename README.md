@@ -3,7 +3,7 @@ Analysis of YouTube Data using Hadoop Mapreduce framework in Java.
 
 Repository contains 4 folders:
 
-Dataset- YouTube dataset is a csv file downloaded from Kaggle.
+GBVideos- YouTube dataset for Great BRitain is a csv file downloaded from Kaggle.
 
 YouTube Data Analysis- is the java implementation of mapper, reducer and combiner
 for total number of videos uploaded in each genre on YouTube based on the dataset.
