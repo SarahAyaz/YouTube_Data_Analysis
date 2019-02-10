@@ -15,7 +15,9 @@ Top Categories Output- folder contain all the output files of Top Viewed Categor
 One output file for each partition.
 
 The output is obtained by creating a .jar file using the following lines of code on Linux terminal
-Step #1 Make an input directory in Hadoop filesystem: hdfs dfs -mkdir /YouTubeInput
+
+Step #1 Make an input directory in Hadoop filesystem: 
+hdfs dfs -mkdir /YouTubeInput
 
 Step #2 Put input data from Linux filesystem to Hadoop DFS: 
 hdfs dfs -put /Downloads/YouTubeDataAnalysis/GBvideos.csv /YouTubeInput
